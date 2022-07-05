@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_form</title>
+    <link rel="stylesheet" href="./Reg.css">
+</head>
+<body>
+    <script> src="./Reg.js"</script>
+    <div class="Regform"> <h1>Registration Form</h1></div>
+    <div class="main">
+        <form >
+           <div class="name_typle">
+            <h2 class="name"> name</h2>
+            <input class="firstname" type="text" name="first_name"> <br>
+            <label class="firstlabel" >first name</label>
+            <br>
+            <input class="lastname" type="text" name="last_name"> <br>
+            <label class="lastlabel" >last name</label>
+           </div>
+
+           <h2 class="name"> company</h2>
+           <input class="company" type="text" name="company">
+ 
+           <h2 class="name">country</h2>
+           <input class="country" type="text" name="country">
+
+         <h2 class="name"> Email</h2>
+         <input class="Email" type="text" name="Email">
+
+         <h2 class="name"> phone</h2>
+         <!-- Area code -->
+         <input class="code" type="text" name="area_code"> 
+         <label class="area_code">Area code</label>
+         <!-- phone number -->
+         <input class="number" type="text" name="phone">
+         <label class="phone-number">phone number</label>
+
+         <h2 class="name">subject</h2>
+         <select class="option" name="">subject
+            <option disabled="disabled" selected="selected">--choose option</option>
+                <option >subject1</option>
+                <option >subject2</option>
+                <option >subject3</option>
+         </select>
+         
+         <h2 class="rate">are you beginner?</h2>
+         <label class="radio" > </label> <input class="radio-1" type="radio" checked="checked" name="Gender">
+         <span class="checkmark">Yes</span>
+
+
+         <label class="radio" ></label>
+         <input class="radio-2" type="radio" name="Gender">
+         <span class="checkmark">No</span>
+
+         <button type="submit">Register</button>
+
+
+        </form>
+    </div>
+</body>
+</html>
